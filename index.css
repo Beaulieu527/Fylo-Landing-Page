@@ -62,20 +62,81 @@ header {
     width: 100%;
     height: 100%;
     padding-top: 180px;
-    
     margin-bottom: -5px;
 }
 
 .row-2 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--Light-Grayish-Blue);
     height: 780px;
-    padding: 35px 70px 0px 70px;
+    padding: 0px 70px 0px 70px;
 }
 
 .row-1 img, .row-2-image img {
     width: 650px;
     height: 475px;
+}
+
+.card {
+    width: 360px;
+    height: 220px;
+    background-color: white;
+    margin-top: 40px;
+    padding: 25px;
+    font-size: 1em;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.author img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.subscription-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 110px 0px 70px;
+    height: 325px;
+    background-color: var(--Desaturated-Blue);
+    color: var(--Light-Grayish-Blue);
+}
+.subscription-section h2{
+    color: var(--Light-Grayish-Blue);
+    font-size: 2em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.subscription-section input {
+    width: 480px;
+    height: 50px;
+    display: block;
+    padding-left: 20px;
+    background-color: var(--Light-Grayish-Blue);
+    color: var(--Light-Gray);
+    border-radius: 5px;
+}
+.subscription-section button{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: var(--Bright-Blue);
+    color:var(--Light-Grayish-Blue);
+    border-color: var(--Bright-Blue);
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: var(--Light-Gray);
 }
 
 .attribution {
